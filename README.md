@@ -46,3 +46,7 @@ Yifei Shi
 ## Version History
 * 0.1
     * Initial Release
+ 
+* 0.2
+    * Upgrade natural language process with text preprocessing, word embedding, and sentiment analysis using multi-class classification modeling
+    * Add visualization plots to illustrate sentiment distribution across week, month, year, platform, and country.
