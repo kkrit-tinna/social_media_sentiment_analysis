@@ -10,15 +10,16 @@ Each entry unveils unique stories—moments of surprise, excitement, admiration,
 
 ## Description
 * This project aims to understand sentiment changes from 2010 to 2023 on popular social media platforms based on certain attributes and how they impact each other.
-* This project explores the standard procedure of ANY data analysis, including data preprocessing, feature engineering, EDA, and correlation analysis.
-* This project leverages some popular data-analyic tools, including pandas, matplotlib, seaborn, and a decent usage of natural language processing tool-vaderSentiment.
-* This project can serve as a beginner-friendly tutorial on data analysis and data visualization, process is well-documented and annotated.
+* This project explores the standard procedure of data analysis, including data preprocessing, feature engineering, EDA and supervised machine learning.
+* This project introduces the standard procedure of natural language processing(text clearning, word embedding, etc.), and used multiclass classification models for sentiment analysis.
+* This project leverages some popular data-analyic tools, including pandas, matplotlib, seaborn, sckiitlearn and a decent usage of natural language processing tool-nltk.
+* This project can serve as a beginner-friendly tutorial on data analysis and data visualization.
 
 ## Getting Started
 
 ### Dependencies
 * The process of Analysis is stored in the Jupyter Notebook **'sentiment_analysis.ipynb'**.
-* Pre-req Python Libraries include: pandas, maplotlib, seaborn, and vaderSentiment.
+* Pre-req Python Libraries include: re, pandas, maplotlib, seaborn, scikitlearn, nltk.
 
 ### Installing
 * You can download this project [here](https://github.com/kkrit-tinna/social_media_sentiment_analysis.git).
@@ -30,7 +31,8 @@ Each entry unveils unique stories—moments of surprise, excitement, admiration,
 ### Potential Issues
 * Dataset is generated using chatGPT, which can be problematic in the accuracy and reliability of this dataset.
 * Based on the sentiment analysis of each post' original text, there are issues of mislabeling sentiments, which can significantly affect the sentiment analysis.
-* Based on the sentiment analyzer, some positive and negaive words are mis-categorized as neutral, which can lead to overestimation of 'neutral' in any sentiment results
+* Based on the sentiment analyzer, some positive and negaive words are mis-categorized as neutral, which can lead to overestimation of 'neutral' in any sentiment results.
+* Based on the weighted accuracy of classification model, deep learning is required for text sentiment analysis.
 * Due to these existing issues, further modeling is no longer pursued until a better solution emerges.
   
 ## Resources
