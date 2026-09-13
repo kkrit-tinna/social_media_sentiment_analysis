@@ -1,0 +1,17 @@
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+statsmodels
+nltk
+spacy
+emoji
+scikit-learn
+imbalanced-learn
+torch
+transformers
+tqdm
+plotly
+wordcloud
+textstat
