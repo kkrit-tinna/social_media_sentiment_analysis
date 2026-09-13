@@ -1,3 +1,4 @@
+ **Archived.** Superseded by [Newsmood Analyzer](https://github.com/kkrit-tinna/Newsmood.git)
 # Social_Media_Sentiment_Analysis
 
 ## About Dataset
